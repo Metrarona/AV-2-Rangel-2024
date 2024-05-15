@@ -1,46 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <title>FJN</title>
+    <title>fjn</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-indigo-100">
+    <nav class="bg-blue-300">
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+            <div class="relative flex items-center justify-between h-16">
+                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                    <!-- Botão para abrir o menu mobile -->
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Abrir menu</span>
+                        <!-- Ícone do menu quando fechado -->
+                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <!-- Ícone do menu quando aberto -->
+                        <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex-shrink-0 flex items-center">
+                        <img class="block lg:hidden h-8 w-auto" src="../img/04c111cc-e8a6-44e7-84d9-09efab91.png" alt="Logo">
+                        <img class="hidden lg:block h-8 w-auto" src="../img/04c111cc-e8a6-44e7-84d9-09efab91.png" alt="Logo">
+                    </div>
+                    <div class="hidden sm:block sm:ml-6">
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-sky-500 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">HOME</a>
+                            <a href="#" class="text-sky-500 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">GRADUAÇÕES</a>
+                            <a href="#" class="text-sky-500 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">PÓS-GRADUAÇÕES</a>
+                            <a href="#" class="text-sky-500 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">INSTITUCIONAL</a>
+                            <a href="#" class="text-sky-500 hover:text-blue-500 px-3 py-2 rounded-md text-sm font-medium">fALE CONOSCO</a>
 
-    <nav class="bg-indigo-300 p-4">
-        <div class="container mx-auto justify-between items-center">
-            <div class="flex items-center">
-                <img src="../img/04c111cc-e8a6-44e7-84d9-09efab91.png" alt="FJN" class="h-20 w-auto mr-4">
-                <div class="text-white text-lg font-semibold">Facudade De Juazeiro do Norte</div>
-            </div>
-            <div class="flex space-x-4">
-                <a href="#home" class="text-white hover:text-gray-300">Home</a>
-                <a href="#home" class="text-white hover:text-violet-600">Home</a>
-                <a href="#home" class="text-white hover:text-gray-300">Home</a>
-                <a href="#home" class="text-white hover:text-gray-300">Home</a>
-                <a href="#home" class="text-white hover:text-gray-300">Home</a>
-                <a href="#home" class="text-white hover:text-gray-300">Home</a>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:items-center">
+                    <div class="relative group">
+                        <form class="w-full flex md:ml-10">
+                            <div class="relative w-full block px-3 py-2 pl-7 pr-3 border border-gray-300 rounded-md shadow-sm focus-within:ring focus-within:ring-gray-500 focus-within:ring-opacity-50">
+                                <span class="sr-only">Pesquisar</span>
+                                <input type="search" name="search" id="search" class="block w-full rounded-md border-gray-300 bg-white focus:ring-indigo-500 focus:border-indigo-500 focus:ring-opacity-50" placeholder="Buscar...">
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
+ 
+    <div class="container mx-auto py-12">
+        <h2 class="bg-white shadow-md rounded-md mx-auto p-4 justify-center text-black text-3xl font-bold mb-6 text-center">Últimas Notícias</h2>
+      
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <article class="bg-white shadow-md rounded-md p-4">
+            <a href="#" class="flex items-center mb-2">
+              <img src="https://picsum.photos/200" alt="Imagem da notícia" class="w-16 h-16 rounded-md mr-4">
+              <h3 class="font-medium">Título da notícia 1</h3>
+            </a>
+            <p class="text-gray-600">Breve descrição da notícia 1.</p>
+          </article>
+      
+          <article class="bg-white shadow-md rounded-md p-4">
+            <a href="#" class="flex items-center mb-2">
+              <img src="https://picsum.photos/200" alt="Imagem da notícia" class="w-16 h-16 rounded-md mr-4">
+              <h3 class="font-medium">Título da notícia 2</h3>
+            </a>
+            <p class="text-gray-600">Breve descrição da notícia 2.</p>
+          </article>
 
-    <img src="../img/thumb-1920-902399.jpg" alt="">
+          <article class="bg-white shadow-md rounded-md p-4">
+            <a href="#" class="flex items-center mb-2">
+              <img src="https://picsum.photos/200" alt="Imagem da notícia" class="w-16 h-16 rounded-md mr-4">
+              <h3 class="font-medium">Título da notícia 2</h3>
+            </a>
+            <p class="text-gray-600">Breve descrição da notícia 2.</p>
+          </article>
 
-    <footer class="bg-indigo-500 text-white py-4">
-       <div class="container mx-auto px-4">
-           <div class="flex justify-between items-center">
+          <article class="bg-white shadow-md rounded-md p-4">
+            <a href="#" class="flex items-center mb-2">
+              <img src="https://picsum.photos/200" alt="Imagem da notícia" class="w-16 h-16 rounded-md mr-4">
+              <h3 class="font-medium">Título da notícia 2</h3>
+            </a>
+            <p class="text-gray-600">Breve descrição da notícia 2.</p>
+          </article>
+      
+        </div>
+      <br>
+      <br>
+        <a href="#" class=" bg-indigo-600 shadow-md rounded-md p-4 text-blue-500 font-medium mt-6">Ver todas as notícias</a>
+      </div>
+      
+
+    <footer class="bg-blue-800 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-row grid-cols-2 gap-20">
+                <div>
+                    <h2 class="text-xl font-bold mb-4">Graduações</h2>
+                    <p>Sistemas de informação</p>
+                    <p>Enfermagem</p>
+                    <p>Ciências Contábeis</p>
+                    <p>Nutrição</p>
+                    <p>Farmácia</p>
+                </div>
+                <div>
+                    <h2 class="text-xl font-bold mb-4">Site e Blogs</h2>
+                    <ul class="list-disc pl-5">
+                        <li><a href="#" class="text-gray-300 hover:text-white">Link para o Site</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white">Link para o Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="text-xl font-bold mb-4">Contato</h2>
+                    <p>Email: contato@example.com</p>
+                    <p>Telefone: (XX) XXXXX-XXXX</p>
+                </div>
+            </div>
+            <br>
             <div class="text-sm">
-                &copy; 2024 Walter Lima Pinheiro e Lucas Alencar Fernandes. Todos os direitos reservados.
+                &comp; 2024 Walter Lima Pinheiro e Lucas Alencar Fernandes. Todos os direitos reservados.
             </div>
-            <div class="flex space-x-4">
-                <a href="#">Facebook - So tem gente feia</a>
-                <a href="#">X - So tem militante chato</a>
-                <a href="#">Instagram - So tem Fake News e vendedor de curso </a>
-            </div>
-           </div>
-       </div>
+        </div>
     </footer>
+    
+
 </body>
 </html>
