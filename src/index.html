@@ -27,7 +27,6 @@
                         </svg>
                     </button>
                 </div>
-
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="flex-shrink-0 flex items-center">
                         <img class="block lg:hidden h-8 w-auto" src="../img/04c111cc-e8a6-44e7-84d9-09efab91.png" alt="Logo">
@@ -45,7 +44,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="hidden sm:ml-6 sm:flex sm:items-center">
                     <div class="relative group">
                         <form class="w-full flex md:ml-10">
@@ -61,12 +59,59 @@
     </nav>
 
 <!--Noticias-->
+
+<!--Comeco do slide-->
+<div class="max-w-2xl mx-auto">
+
+	<div id="default-carousel" class="relative" data-carousel="static">
+     
+        <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+           
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl ">Primer Slide</span>
+                <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+            </div>
+           
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+            </div>
+           
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+            </div>
+        </div>
+        
+        
+        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        </div>
+       
+        <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30  group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
+                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                <span class="hidden">Anterior</span>
+            </span>
+        </button>
+        <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 0 group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
+                <svg class="w-5 h-5 text-white sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                <span class="hidden">Siguiente</span>
+            </span>
+        </button>
+    </div>
+	</p>
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+
+<!--Últimas Noticias-->    
+</div>
     <div class="container mx-auto py-12">
         <h2 class=" text-blue-500 text-3xl font-bold mb-6 border-b-4 border-blue-400 w-1/2">Últimas Notícias</h2>
       
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-           
-          <!--Noticia-1-->  
+
+           <!--Noticia-1-->  
           <article class="bg-white shadow-md rounded-md p-4">
             <a href="#" class="flex items-center mb-2">
               <img src="https://picsum.photos/200" alt="Imagem da notícia" class="w-16 h-16 rounded-md mr-4">
@@ -78,20 +123,20 @@
                 assumenda incidunt sunt suscipit quam, non mollitia!</p>
           </article>
           
-          <!--Noticia-2-->
-          <article class="bg-white shadow-md rounded-md p-4">
-            <a href="#" class="flex items-center mb-2">
-              <img src="https://picsum.photos/200" alt="Imagem da notícia" class="w-16 h-16 rounded-md mr-4">
-              <h3 class="font-medium">Lorem ipsum dolor</h3>
-            </a>
-            <p class="text-gray-600">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ipsa eligendi, excepturi quos deserunt cumque aut architecto explicabo blanditiis quod nesciunt aliquam odio commodi, 
-                assumenda incidunt sunt suscipit quam, non mollitia
-            </p>
-          </article>
+           <!--Noticia-2-->
+      <article class="bg-white shadow-md rounded-md p-4">
+        <a href="#" class="flex items-center mb-2">
+          <img src="https://picsum.photos/200" alt="Imagem da notícia" class="w-16 h-16 rounded-md mr-4">
+          <h3 class="font-medium">Lorem ipsum dolor</h3>
+        </a>
+        <p class="text-gray-600">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ipsa eligendi, excepturi quos deserunt cumque aut architecto explicabo blanditiis quod nesciunt aliquam odio commodi, 
+            assumenda incidunt sunt suscipit quam, non mollitia
+        </p>
+      </article>
 
-          <!--Noticia-3-->
+       <!--Noticia-3-->
           <article class="bg-white shadow-md rounded-md p-4">
             <a href="#" class="flex items-center mb-2">
               <img src="https://picsum.photos/200" alt="Imagem da notícia" class="w-16 h-16 rounded-md mr-4">
@@ -150,11 +195,8 @@
         </tbody>
       </table>
     </section>
-  </div>
-  
-  
-    
-      
+  </div>      
+
 <!--Utilidade e serviços-->
 <div class="container mx-auto">
     <h2 class=" text-blue-500 text-3xl font-bold mb-6 border-b-4 border-blue-400 w-1/2">Utilidade e Serviços</h2>
@@ -288,10 +330,12 @@
 
 
     </div>
-</div> 
+</div>      
+     
 
+      
 <!--Rodape-1-->
-    <footer class="bg-blue-800 text-white py-10 ">
+    <footer class="bg-blue-800 text-white py-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-row grid-cols-2 gap-20">
                 <div>
@@ -302,14 +346,6 @@
                     <p>Nutrição</p>
                     <p>Farmácia</p>
                 </div>
-
-                <div>
-                    <h2 class="text-xl font-bold mb-4">Manuais</h2>
-                    <p>Manual TOTVS</p>
-                    <p>Manual do TCC</p>
-                    <p>Manual do Aluno</p>
-                </div>
-
                 <div>
                     <h2 class="text-xl font-bold mb-4">Site e Blogs</h2>
                     <ul class="list-disc pl-5">
@@ -317,7 +353,6 @@
                         <li><a href="#" class="text-gray-300 hover:text-white">Link para o Blog</a></li>
                     </ul>
                 </div>
-
                 <div>
                     <h2 class="text-xl font-bold mb-4">Contato</h2>
                     <p>Email: contato@example.com</p>
@@ -329,16 +364,14 @@
     </footer>
  
 <!--Rodaper-2-->    
-<footer class="bg-black text-white text-sm py-10">
-    <div class="max-w-7xl mx-auto px-1 sm:px-2 lg:px-8 flex items-center">
-        <img src="../img/icons/9042266_view_icon.svg" alt="" class="mr-2 h-14 w-14"> <!-- Ajuste o tamanho da imagem conforme necessário -->
-        <div>
-            &comp; Power by 360°. <br>
-            Todos os direitos reservados. 
-            Devs: Walter Lima Pinheiro e Lucas Alencar Fernandes
+    <footer class="bg-black text-white text-sm py-10">
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            &comp; 2024 Walter Lima Pinheiro e Lucas Alencar Fernandes. Todos os direitos reservados.
         </div>
-    </div>
-</footer>
+
+    </footer>
+    
 
 </body>
 </html>
